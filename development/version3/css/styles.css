@@ -1,0 +1,157 @@
+.container {
+
+    display: flex;/* converting elements into boxes */
+    justify-content: center;/* making focus to the left */
+    text-align: center;/* putting text to left side */
+    flex-direction: column;/* makes it go down instead of across*/
+    font-family:Arial,Helvetica,sans-serif;/* default font */
+    background-color: #696969; /* Optional: background color */
+
+}
+
+.navi{
+
+    margin: 0; /* setting margin to 0 */
+    padding: 0; /* setting padding to 0 */
+    height: 100%; /* making sure it goes to top of screen */
+    padding-top:90px; /* padding to top of nav bar */
+    padding-bottom:20px; /* padding to bottom of nav bar */
+    background-color: #23B3C3; /* Optional: background color */
+
+}
+
+nav ul li a{
+
+    text-decoration: underline;  /* underlines the text */
+    text-underline: #ffffff; /* underline text as white */
+    font-weight: bold; /* font weight of text */
+    font-size: 25px; /* size of text */
+    color: #ffffff;  /* sets color of text */
+
+}
+
+nav ul {
+
+    list-style: none; /* Remove default bullet points */
+    display: flex; /* Arrange list items in a row */
+    justify-content: flex-start; /* Center items horizontally */
+    width:100%; /* makes sure it goes across entire width of top bar */
+    margin-left: 150px; /* makes sure it doesnt touch logo */
+    font-weight: bold;  /* sets text to bold */
+
+}
+
+nav li{/* creates space around li items in nav bar */
+
+    padding:5px 20px 5px 20px;/* top right bottom left padding*/
+
+}
+
+nav li:hover {/*sets up roll over for the nav bar */
+
+    background-color: orangered;/*changes color on hover*/
+    border-radius: 30px; /* adding a curve to box corners */
+
+}
+
+img {
+
+    width:120px; /* width of image */
+    position: fixed;/* position on screen is fixed to designated coordinates */
+    left: 10px;/* pixels from top */
+    top: 10px;/* pixels from right */
+
+}
+
+body {
+
+    margin: 0; /* setting margin to 0 */
+    padding: 0; /* setting padding to 0 */
+    height: 100%; /* making sure it goes to top of screen */
+    background-color: #696969; /* color of background */
+
+}
+
+#submit{
+
+    font-size: 30px; /* size of text */
+
+}
+
+input{
+
+    font-weight: bold; /* weight of text */
+    font-size: 17px; /* size of text */
+    background-color: #23B3C3; /* color of background */
+    border-radius: 50px; /* adding a curve to corners of box */
+}
+
+#bold{
+
+    font-weight:bold; /* size of font line */
+
+}
+
+topbar {
+
+    font-size:23px; /* size of text */
+    color:#ffffff; /* color of text */
+
+}
+topbar p {
+    position: fixed;/* position on screen is fixed to designated coordinates */
+    left: 1250px;/* pixels from top */
+    top: 10px;/* pixels from right */
+}
+
+topbar p1 {
+    position: fixed;/* position on screen is fixed to designated coordinates */
+    left: 1250px;/* pixels from top */
+    top: 70px;/* pixels from right */
+
+}
+
+#message {
+
+    font-size: 30px; /* size of text */
+    color:#ffffff; /* color of text */
+
+}
+
+.slogan{
+
+    color:#ffffff; /* color of text */
+    font-size: 55px; /* text size */
+    font-weight:bold; /* changing font line size to thicker */
+    position:fixed; /* sets entity position to fixed so isn't bothered by surround entities */
+    left: 350px; /* position on screen */
+    top:400px; /* position on screen */
+
+}
+
+hr{
+
+    border-color: #23B3C3; /* changing border color */
+    height:5px; /* increasing size of line */
+    background-color: #23B3C3; /* background color */
+
+}
+
+#sloganmain{
+
+    font-size:75px; /* size of text */
+
+}
+
+#grey {
+
+    color:#B5B5B5; /* color of text */
+
+}
+
+#light{
+
+    font-weight: lighter; /* making font line thinner */
+    font-size: 20px; /* font size */
+
+}
